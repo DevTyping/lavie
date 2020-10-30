@@ -1,0 +1,22 @@
+{
+  "name": "lavie",
+  "version": "0.0.1",
+  "description": "Component library for TailwindCSS",
+  "main": "index.js",
+  "authors": {
+    "name": "Dat Nguyen",
+    "email": "kcboi95@gmail.com"
+  },
+  "repository": "https://github.com/DevTyping/lavie/lavie",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.9.6"
+  }
+}
