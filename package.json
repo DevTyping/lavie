@@ -1,6 +1,6 @@
 {
   "name": "@devtyping/lavie",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Component library for TailwindCSS & VueJS",
   "author": "Dat Nguyen <kcboi95@gmail.com>",
   "scripts": {
@@ -55,7 +55,6 @@
   ],
   "devDependencies": {
     "cssnano": "^4.1.10",
-    "eslint": "^7.12.1",
     "postcss": "^8.1.4",
     "postcss-loader": "^2.1.6"
   }
