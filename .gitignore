@@ -1,7 +1,7 @@
 .DS_Store
 node_modules/
 /dist/
-/docs/src/.vuepress/dist
+/docs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

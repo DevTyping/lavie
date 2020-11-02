@@ -4,6 +4,6 @@
   </button>
 </template>
 
-<script src="./labutton.js"></script>
+<script src="./script.js"></script>
 
-<style src="./labutton.css"></style>
+<style src="./styles.css"></style>
