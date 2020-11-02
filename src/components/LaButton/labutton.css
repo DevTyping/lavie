@@ -1,0 +1,56 @@
+.btn-default {
+  height: 48px;
+}
+
+.btn-field {
+  height: 40px;
+}
+
+.btn-small {
+  height: 32px;
+}
+
+.btn-primary {
+  background: var(--interactive-01);
+  color: var(--text-04);
+  border: 1px solid var(--interactive-01);
+}
+
+.btn-primary:hover {
+  background: var(--hover-primary);
+  border: 1px solid var(--hover-primary);
+}
+
+.btn-secondary {
+  background: var(--interactive-02);
+  color: var(--text-04);
+  border: 1px solid var(--interactive-02);
+}
+
+.btn-secondary:hover {
+  background: var(--hover-secondary);
+  border: 1px solid var(--hover-secondary);
+}
+
+.btn-tertiary {
+  background: var(--inverse-01);
+  color: var(--interactive-01);
+  border: 1px solid var(--interactive-01);
+}
+
+.btn-tertiary:hover {
+  background: var(--hover-tertiary);
+  color: var(--text-04);
+  border: 1px solid var(--hover-tertiary);
+}
+
+.btn-danger {
+  background: var(--danger);
+  color: var(--text-04);
+  border: 1px solid var(--danger);
+}
+
+.btn-danger:hover {
+  background: var(--hover-danger);
+  border: 1px solid var(--hover-danger);
+}

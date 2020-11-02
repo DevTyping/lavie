@@ -1,11 +1,15 @@
-// Import vue component
-import LaButton from './components/LaButton'
+import * as components from './components'
 
 // Declare install function executed by Vue.use()
 export default function install (Vue) {
   if (install.installed) return
   install.installed = true
-  Vue.component('LaButton', LaButton)
+  for (const key in components) {
+    const component = components[key]
+    if (component) {
+      Vue.component(key, component)
+    }
+  }
 }
 
 // Create module definition for Vue.use()

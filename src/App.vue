@@ -22,3 +22,7 @@ export default {
   }
 }
 </script>
+
+<style>
+@import "css/lavie";
+</style>
