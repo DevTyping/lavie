@@ -1,4 +1,5 @@
 import * as components from './components'
+import './css/lavie.css'
 
 // Declare install function executed by Vue.use()
 export default function install (Vue) {

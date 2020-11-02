@@ -1,6 +1,6 @@
 {
   "name": "@devtyping/lavie",
-  "version": "0.0.8",
+  "version": "0.0.10",
   "description": "Component library for TailwindCSS & VueJS",
   "author": "Dat Nguyen <kcboi95@gmail.com>",
   "scripts": {
@@ -36,7 +36,6 @@
     "chalk": "^2.0.1",
     "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.28.0",
-    "cssnano": "^4.1.10",
     "eslint": "^4.15.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-friendly-formatter": "^3.0.0",
@@ -46,6 +45,7 @@
     "eslint-plugin-promise": "^3.4.0",
     "eslint-plugin-standard": "^3.0.1",
     "eslint-plugin-vue": "^4.0.0",
+    "postcss": "^5.2.18",
     "postcss-cssnext": "^3.1.0",
     "postcss-custom-properties": "^10.0.0",
     "postcss-import": "^11.1.0",
