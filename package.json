@@ -1,31 +1,40 @@
 {
   "name": "@devtyping/lavie",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Component library for TailwindCSS & VueJS",
+  "keywords": [
+    "lavie",
+    "ui library",
+    "component library",
+    "carbon design components",
+    "vue library"
+  ],
+  "homepage": "https://devtyping.github.io/lavie-ui/",
+  "bugs": {
+    "url": "https://github.com/DevTyping/lavie/issues"
+  },
+  "license": "MIT",
   "author": "Dat Nguyen <kcboi95@gmail.com>",
+  "contributors": [
+    {
+      "name": "Dat Nguyen",
+      "email": "kcboi95@gmail.com",
+      "url": "https://nguyendat.dev"
+    }
+  ],
+  "main": "./src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevTyping/lavie.git"
+  },
   "scripts": {
     "lint": "eslint --ext .js,.vue src"
   },
-  "main": "./src/index.js",
   "dependencies": {
     "tailwindcss": "^1.9.6",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
-  "engines": {
-    "node": ">= 6.0.0",
-    "npm": ">= 3.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DevTyping/lavie.git"
-  },
-  "homepage": "https://devtyping.github.io/lavie-ui/",
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ],
   "devDependencies": {
     "@vue/cli": "^4.5.8",
     "autoprefixer": "^7.1.2",
@@ -51,5 +60,14 @@
     "postcss-import": "^11.1.0",
     "postcss-loader": "^2.0.8",
     "postcss-url": "^7.2.1"
-  }
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
 }
